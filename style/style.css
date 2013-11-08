@@ -1,0 +1,106 @@
+/* RESET CSS */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* MY STYLE */
+*{box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+html,body{
+	min-height: 100%;
+}
+.row{
+	width: 100%;
+}
+.row:after{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.wrapper{
+	margin: 0 auto;
+	min-height: 600px;
+	min-width: 800px;
+	max-width: 960px;
+}
+.column{
+	float: left;
+	/*padding: 0 5px;*/
+}
+.column.w10{width: 10%}
+.column.w20{width: 20%; background: #fef;}
+.column.w30{width: 30%}
+.column.w40{width: 40%}
+.column.w50{width: 50%}
+.column.w60{width: 60%}
+.column.w70{width: 70%}
+.column.w80{width: 80%; background: #ecd;}
+.column.w90{width: 90%}
+.column.w100{width: 100%}
+.column.w25{width: 25%}
+.column.w75{width: 75%}
+
+.upper_case{
+	text-transform: uppercase;
+}
+.blue_menu_stripe{
+	background: url(../img/blue_menu_stripe.png) repeat-x;
+	height: 32px;
+}
+.blue_stripe{
+	background: url(../img/blue_stripe.png) repeat-x;
+	height: 20px;
+	border-radius: 5px;
+}
+.left_menu{
+	min-height: 100%;
+}
