@@ -102,7 +102,7 @@ a{
 .wrapper{
 	/*margin: 0 auto;*/
 	min-height: 100%;
-	margin-bottom: -10%;
+	margin-bottom: -15%;
 	/*max-width: 960px;*/
 	/*min-width: 800px;*/
 }
@@ -196,6 +196,9 @@ input{
 	color: #909090;
 	text-transform: capitalize;
 	font-size: 0.8em;
+}
+#footer{
+	height: 8%;
 }
 /*.left_menu li{
 	font-size: 0.8em;
