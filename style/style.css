@@ -171,6 +171,9 @@ li.bord_none{
 .bord{
 	border: 1px solid #bebdbd;
 }
+.bordOrange{
+	border: 1px solid #ff9900;
+}
 .h100{
 	min-height: 100%;
 }
@@ -194,6 +197,9 @@ li.bord_none{
 }
 .pl2-5{
 	padding-left: 2.5%;
+}
+.pl8{
+	padding-left: 8%;
 }
 .pl10{
 	padding: 0.35em 0 0 1.5em;
@@ -270,6 +276,9 @@ li.bord_none{
 }
 .fs0-6em{
 	font-size: 0.6em;
+}
+.fs0-8em{
+	font-size: 0.8em;
 }
 .fs0-5em{
 	font-size: 0.5em;
@@ -363,3 +372,16 @@ li.bord_none{
 li.column{
 	padding: 0 2%;
 }
+.orange{
+	border: none;
+	cursor: pointer;
+	height: 2em;
+	background: #f99c02;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #ffffff;
+}
+.fntBold{
+	font-weight: bold;
+}
+
