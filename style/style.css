@@ -58,8 +58,13 @@ h1, h2, h3, h4, h5, h6, p, span, div, li, ol, ul, a{
 }
 input, select{
 	border: 1px solid #819ebc;
+}
+select{
+	font-size: 0.55em;
+}
+input{
+	font-size: 0.55em;
 	padding: 0.15em 0.2em;
-	font-size: 0.6em;
 }
 h4{
 	/*padding: 1em 0 0.3em 1em;*/
@@ -144,6 +149,7 @@ li.bord_none{
 .column.fr{
 	float: right;
 }
+.column.w5{width: 5%;}
 .column.w10{width: 10%;}
 .column.w15{width: 15%;}
 .column.w20{width: 20%;}
@@ -162,13 +168,16 @@ li.bord_none{
 .column.w79{width: 79%;}
 .column.w16{width: 15.6%;}
 .column.w28{width: 28%;}
-.column.w49{width: 49%;}
-.column.w51{width: 51%;}
+.column.w49-4{width: 49.4%;}
+.column.w50-6{width: 50.6%;}
 .column.w21-4{width: 21.4%;}
 .column.w78-6{width: 78.6%;}
 .column.w13{width: 13%;}
 .column.w62{width: 62%;}
 .column.w38{width: 38%;}
+.column.w45{width: 45%;}
+.column.w20-4{width: 20.4%;}
+.column.w79-6{width: 79.6%;}
 .upper_case{
 	text-transform: uppercase;
 }
@@ -177,6 +186,9 @@ li.bord_none{
 }
 .pt2{
 	padding-top: 2%;
+}
+.pt3{
+	padding-top: 3%;
 }
 .pt4{
 	padding-top: 4%;
@@ -251,14 +263,21 @@ li.bord_none{
 .ptb22{
 	padding: 2% 0;
 }
-.pt5{
+.pt0-25em{
 	padding-top: 0.25em;
+}
+.pt4-4{
+	padding-top: 4.4%;
 }
 .pr8{
 	padding-right: 8%;
 }
 .prl5{
 	padding: 0 0.8em;
+}
+.padrl0{
+	padding-right: 0%;
+	padding-left: 0%;
 }
 .pl2-5{
 	padding-left: 2.5%;
@@ -281,11 +300,14 @@ li.bord_none{
 .pl10{
 	padding-left: 10%;
 }
+.pl0-7{
+	padding-left: 0.7%;
+}
 .pl1{
 	padding-left: 1%;
 }
-.ptl1-2{
-	padding: 1.2% 0 0 20%;
+.ptl1-17{
+	padding: 1.2% 0 0 17%;
 }
 .padAll1{
 	padding: 1%;
@@ -321,6 +343,9 @@ li.bord_none{
 .mr3{
 	margin-right: 3%;
 }
+.mr4{
+	margin-right: 4%;
+}
 .mr1{
 	margin-right: 1%;
 }
@@ -332,6 +357,9 @@ li.bord_none{
 }
 .mt1-25{
 	margin-top: 1.25%;
+}
+.mt1-35{
+	margin-top: 1.35%;
 }
 .mt1-5{
 	margin-top: 1.5%;
@@ -353,6 +381,9 @@ li.bord_none{
 }
 .mt-0-5{
 	margin-top: -0.5%;
+}
+.mt-1{
+	margin-top: -1%;
 }
 .mt-0-4{
 	margin-top: -0.4%;
@@ -445,7 +476,7 @@ li.bord_none{
 	/*border-left-right: 1px solid #bebdbd;*/
 	background: #e4e3e3;
 	text-align: center;
-	height: 1.5em;
+	height: 1.54em;
 }
 li.active{
 	background: #ffffff;
@@ -455,11 +486,11 @@ li.active{
 	border-top: 1px solid #e0e0e0;
 	font-size: 0.7em;
 	font-weight: bold;
-	line-height: 2.28em;
+	line-height: 2.29em;
 	text-transform: capitalize;
 }
 .left_menu ul li ul li{
-	line-height: 1.98em;
+	line-height: 2em;
 	font-size: inherit;
 	font-weight: bold;
 	text-transform: capitalize;
@@ -472,19 +503,50 @@ li.active{
 #footer{
 	height: 8%;
 }
-.h15{
-	height: 15%;
-}
-.h77{
-	height: 77%;
-}
 .h1-7em{
 	height: 1.7em;
 }
-/*.left_menu li{
-	font-size: 0.8em;
-}*/
+
+.dbl{
+	display: block;
+}
+li.column{
+	padding: 0 4%;
+}
+li.column.padSmaller{
+	padding: 0 2%;
+}
+.orange{
+	border: none;
+	cursor: pointer;
+	height: 1.9em;
+	background: #f99c02;
+	font-size: 1.05em;
+	font-weight: bold;
+	color: #ffffff;
+}
+.fntBold{
+	font-weight: bold;
+}
+.button{
+	height: 2.4em;
+	border: 1px solid #c0c0c0;
+	border-radius: 4px;
+	font-size: 0.4em;
+	background: url(../img/grey_button.png) repeat-x;
+}
+.color666{
+	color: #666666;
+}
+.colorc0c{
+	color: #c0c0c0;
+}
+.color_dark_grey{
+	color: #3c3c3f;
+}
+
 /* SPRITE */
+
 .sprites div{
 	background: url(../img/sprite.png) no-repeat top left;
 }
@@ -521,37 +583,3 @@ li.active{
 .sprite-twitter_icon{ background-position: 0 -1608px !important; width: 8px; height: 10px; } 
 .sprite-double_stripe{ background-position: 0 -1645px !important; width: 5px; height: 5px; } 
 .sprite-grey_button{ background-position: 0 -1665px !important; width: 10px; height: 14px; } 
-.dbl{
-	display: block;
-}
-li.column{
-	padding: 0 2%;
-}
-.orange{
-	border: none;
-	cursor: pointer;
-	height: 1.9em;
-	background: #f99c02;
-	font-size: 1.2em;
-	font-weight: bold;
-	color: #ffffff;
-}
-.fntBold{
-	font-weight: bold;
-}
-.button{
-	height: 2.4em;
-	border: 1px solid #c0c0c0;
-	border-radius: 4px;
-	font-size: 0.4em;
-	background: url(../img/grey_button.png) repeat-x;
-}
-.color666{
-	color: #666666;
-}
-.colorc0c{
-	color: #c0c0c0;
-}
-.color_dark_grey{
-	color: #3c3c3f;
-}
