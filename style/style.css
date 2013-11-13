@@ -58,6 +58,8 @@ h1, h2, h3, h4, h5, h6, p, span, div, li, ol, ul, a{
 }
 input, select{
 	border: 1px solid #819ebc;
+	padding: 0.15em 0.2em;
+	font-size: 0.6em;
 }
 h4{
 	/*padding: 1em 0 0.3em 1em;*/
@@ -69,7 +71,7 @@ h4{
 	/*line-height: 2em;*/
 }
 h3{
-	font: bold 1.2em verdana,sans-serif;
+	font: bold 1.4em verdana,sans-serif;
 	color: #386c93;
 }
 html,body,#main_container{
@@ -90,11 +92,8 @@ a.dec{
 .capital{
 	text-transform: capitalize;
 }
-.h1-2{
-	height: 1.2em;
-}
-.h80{
-	height: 80%;
+.h3{
+	height: 3em;
 }
 .color_white{
 	color: #ffffff;
@@ -128,7 +127,7 @@ li.bord_none{
     content: ".";
     display: block;
     height: 0;
-    margin-bottom: 1.77em;
+    margin-bottom: 1.74em;
     visibility: hidden;
 }
 .wrapper{
@@ -166,7 +165,10 @@ li.bord_none{
 .column.w49{width: 49%;}
 .column.w51{width: 51%;}
 .column.w21-4{width: 21.4%;}
+.column.w78-6{width: 78.6%;}
 .column.w13{width: 13%;}
+.column.w62{width: 62%;}
+.column.w38{width: 38%;}
 .upper_case{
 	text-transform: uppercase;
 }
@@ -174,10 +176,13 @@ li.bord_none{
 	font-style: italic;
 }
 .pt2{
-	padding-top: 0.1em;
+	padding-top: 2%;
 }
 .pt4{
 	padding-top: 4%;
+}
+.pt6{
+	padding-top: 6%;
 }
 .pad5{
 	padding: 1em;
@@ -186,7 +191,8 @@ li.bord_none{
 	padding: 0 0.5em;
 }
 .padrl1-5{
-	padding: 0 1.5%;
+	padding-left: 1.5%;
+	padding-right: 1.5%;
 }
 .bordBot{
 	border-bottom: 1px solid #bebdbd;
@@ -260,6 +266,9 @@ li.bord_none{
 .pl3-5{
 	padding-left: 3.5%;
 }
+.pl4{
+	padding-left: 4%;
+}
 .pb1{
 	padding-bottom: 1%;
 }
@@ -277,6 +286,16 @@ li.bord_none{
 }
 .ptl1-2{
 	padding: 1.2% 0 0 20%;
+}
+.padAll1{
+	padding: 1%;
+}
+.pad0-2em{
+	padding: 0.2em;
+}
+.ptb11{
+	padding-top: 1%;
+	padding-bottom: 1%;
 }
 .ptl3{
 	padding: 3% 0;
@@ -381,6 +400,12 @@ li.bord_none{
 .fs0-6em{
 	font-size: 0.6em;
 }
+.fs0-7em{
+	font-size: 0.7em;
+}
+.fs0-95em{
+	font-size: 0.95em;
+}
 .fs0-8em{
 	font-size: 0.8em;
 }
@@ -453,7 +478,9 @@ li.active{
 .h77{
 	height: 77%;
 }
-
+.h1-7em{
+	height: 1.7em;
+}
 /*.left_menu li{
 	font-size: 0.8em;
 }*/
@@ -503,7 +530,7 @@ li.column{
 .orange{
 	border: none;
 	cursor: pointer;
-	height: 2em;
+	height: 1.9em;
 	background: #f99c02;
 	font-size: 1.2em;
 	font-weight: bold;
@@ -515,7 +542,7 @@ li.column{
 .button{
 	height: 2.4em;
 	border: 1px solid #c0c0c0;
-	border-radius: 2px;
+	border-radius: 4px;
 	font-size: 0.4em;
 	background: url(../img/grey_button.png) repeat-x;
 }
