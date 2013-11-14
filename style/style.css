@@ -138,7 +138,7 @@ li.bord_none{
 .wrapper{
 	/*margin: 0 auto;*/
 	min-height: 100%;
-	margin-bottom: -15%;
+	/*margin-bottom: -15%;*/
 	/*max-width: 960px;*/
 	/*min-width: 800px;*/
 }
@@ -195,6 +195,9 @@ li.bord_none{
 }
 .pt6{
 	padding-top: 6%;
+}
+.pt8{
+	padding-top: 8%;
 }
 .pad5{
 	padding: 1em;
@@ -271,6 +274,9 @@ li.bord_none{
 }
 .pr8{
 	padding-right: 8%;
+}
+.pr2{
+	padding-right: 2%;
 }
 .prl5{
 	padding: 0 0.8em;
