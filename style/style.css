@@ -132,33 +132,18 @@ li.bord_none{
     content: ".";
     display: block;
     height: 0;
-    margin-bottom: 1.74em;
-    visibility: hidden;
-}
-.bigAfterRow:after{
-	content: ".";
-    display: block;
-    height: 0;
-    margin-bottom: 4em;
+    margin-bottom: 1.8em;
     visibility: hidden;
 }
 .megaAfterRow:after{
 	content: ".";
     display: block;
     height: 0;
-    margin-bottom: 14em;
+    margin-bottom: 17.9em;
     visibility: hidden;
-}
-.wrapper{
-	/*margin: 0 auto;*/
-	min-height: 100%;
-	/*margin-bottom: -15%;*/
-	/*max-width: 960px;*/
-	/*min-width: 800px;*/
 }
 .column{
 	float: left;
-	/*padding: 0 5px;*/
 }
 .column.fr{
 	float: right;
@@ -314,6 +299,15 @@ li.bord_none{
 .pl8{
 	padding-left: 8%;
 }
+.posRel{
+	position: relative;
+}
+.posAbs{
+	position: absolute;
+	width: 100%;
+	top: 100%;
+	left: 40%;
+}
 .pl12{
 	padding-left: 12%;
 }
@@ -447,7 +441,6 @@ li.bord_none{
 .cart{
 	font-size: 0.8em;
 	text-decoration: underline;
-	/*line-height: 0.2em;*/
 }
 .fs0-6em{
 	font-size: 0.6em;
@@ -460,6 +453,9 @@ li.bord_none{
 }
 .fs0-8em{
 	font-size: 0.8em;
+}
+.fs1-1emi{
+	font-size: 1.1em !important;
 }
 .fs1-4em{
 	font-size: 1.4em;
@@ -494,7 +490,6 @@ li.bord_none{
 	background: #e8f0f6;
 }
 .tabs li{
-	/*border-left-right: 1px solid #bebdbd;*/
 	background: #e4e3e3;
 	text-align: center;
 	height: 1.54em;
