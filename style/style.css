@@ -135,6 +135,20 @@ li.bord_none{
     margin-bottom: 1.74em;
     visibility: hidden;
 }
+.bigAfterRow:after{
+	content: ".";
+    display: block;
+    height: 0;
+    margin-bottom: 4em;
+    visibility: hidden;
+}
+.megaAfterRow:after{
+	content: ".";
+    display: block;
+    height: 0;
+    margin-bottom: 14em;
+    visibility: hidden;
+}
 .wrapper{
 	/*margin: 0 auto;*/
 	min-height: 100%;
@@ -326,7 +340,8 @@ li.bord_none{
 	padding-bottom: 1%;
 }
 .ptl3{
-	padding: 3% 0;
+	padding-top: 4%;
+	padding-bottom: 4%;
 }
 .pl05em{
 	padding: 0 0 0 0.5em;
@@ -464,8 +479,8 @@ li.bord_none{
 .lh0-8em{
 	line-height: 1.2em;
 }
-.lh0-6em{
-	line-height: 0.8em;
+.lh1em{
+	line-height: 1em;
 }
 .tac{
 	text-align: center;
